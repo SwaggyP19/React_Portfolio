@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    outline: none;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url('../img/Authorization form.png');
+    background-repeat: no-repeat;
+    background-size:auto;
+    background-color: #171718;
+    background-position: center;
+}
+
+.login-form {
+    display: grid;
+    grid-gap: 1px;
+    min-width: 300px;
+}
+
+.login-form__logo {
+    margin-bottom: -45px;
+    margin-left: 20px;
+    margin-top: -50px;
+    padding: 52px;
+    width: 163%;
+    color: white;
+    font-size: 24px;
+    font-family: 'Montserrat', mixed;
+}
+
+.input {
+    position: relative;
+}
+
+.input__field {
+    width: 100%;
+    padding: 13px 13px 13px 51px;
+    background-color: transparent;
+    border: 1.4px solid white;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: 'Montserrat', light;
+}
+
+.input__field::placeholder {
+    color: #bababa;
+
+}
+
+.login-form__submit {
+    margin-top: 15px;
+    padding: 13px;
+    border-radius: 4px;
+    background: #5C62EC;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.login-form__forgot{
+    padding: 5px;
+    text-align: right;
+    text-decoration: none;
+    color: #FFFFFF
+}
+
+.login-form__create {
+    padding: 10px;
+    text-align:center;
+    color: #FFFFFF;
+}
+
+.login-form__createAccount {
+    padding: 20px;
+    padding-left: 3px;
+    text-decoration: none;
+    color: #5C62EC;
+}
